@@ -1,3 +1,4 @@
+/*
 const whoIs = prompt('Кто пришел?', 'Админ');
 
 if(whoIs === 'Админ' ){
@@ -14,4 +15,17 @@ if(whoIs === 'Админ' ){
     alert('Вход отменен');
 } else{
     alert("Я вас не знаю");
+}*/
+
+
+const test = true;
+
+if(test !== true){
+    alert('Верно')
+} else{
+    alert('Неверно')
 }
+
+
+const result = test !== true ? 'Верно' : 'Неверно';
+alert(result);
