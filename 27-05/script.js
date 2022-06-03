@@ -7,15 +7,17 @@ if (start === true){
         if (question === 'Бишкек'){
             alert('Верно! + 1Балл' )
             number++;
-        }else{
+        } else{
             alert("Неверно(")
-        } const question2 = prompt('Ваша страна ... ?');
+        }
+        const question2 = prompt('Ваша страна ... ?');
         if (question2 === 'Кыргызстан'){
             alert('Верно! + 1Балл' )
             number++;
-        }else{
+        } else{
             alert("Неверно(")
-        } alert ('У вас ' +number+ '  баллов' )
+        }
+        alert ('У вас ' +number+ '  баллов' )
     }
 } else {
     alert('Жаль что ты уходишь :(');
