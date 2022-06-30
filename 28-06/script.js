@@ -21,14 +21,14 @@ const timerId = setInterval(() => {
 
 let quantity = 0;
 let sum = 0;
-let questions = prompt('Введите число');
+let questions = +prompt('Введите число');
 while (questions != 999){
     quantity += 1;
     sum += questions;
-    questions = prompt('Введите число');
+    questions = +prompt('Введите число');
 }
 alert('Кол-во ='+quantity);
-alert('Сумма ='+sum);
+alert('Сумма ='+sum);2
 
 
 
