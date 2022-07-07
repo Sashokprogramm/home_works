@@ -2,9 +2,8 @@ const showDesc = (event) => {
     alert(event.target.alt);
 }
 
-const photo = document.querySelectorAll('#images_site img');
-console.log(photo);
+const photos = document.querySelectorAll('#images_site img');
 
-for (let i = 0;i < photo.length ; i++){
-    photo[i].addEventListener('click', showDesc);
+for (let i = 0;i < photos.length ; i++){
+    photos[i].addEventListener('click', showDesc);
 }
