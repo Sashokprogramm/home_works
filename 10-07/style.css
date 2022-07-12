@@ -1,0 +1,45 @@
+img{
+    width: 100%;
+    height: 100%;
+}
+.img-card{
+    margin: 0 auto;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.notification {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn1{
+    margin-top: 20px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    width: 232px;
+    height: 35px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #464f68;
+
+}
+.info{
+    color: #0e333b;
+    background-color: #cff4fc;
+}
+.warning{
+    color: #664d03;
+    background-color: #fff3cd;
+}
+.success{
+    color: #0f5132;
+    background-color: #d1e7dd;
+}
+.danger{
+    color: #842029;
+    background-color: #f8d7da;
+}
