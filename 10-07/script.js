@@ -55,9 +55,8 @@ const stop = document.querySelector('#stop_btn');
 const time = document.querySelector('#time');
 
 let intervalTimer;
-
+let min = 0;
 const startTimer = () => {
-    let min = 0;
     intervalTimer = setInterval(showTimeText , 1000);
     function showTimeText() {
         min++;
