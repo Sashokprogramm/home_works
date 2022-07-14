@@ -19,5 +19,5 @@ for (let key in productCard){
     del += 'Имя товара:' +productCard[key].name + '<br>' ;
     del += 'Цена товара:' +productCard[key].price + '<br>' ;
     del += '<img src = "' +productCard[key].image_url +'">' ;
-    p.innerHTML = del;
 }
+p.innerHTML = del;
