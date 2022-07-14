@@ -1,5 +1,4 @@
 const p = document.querySelector('#p');
-
 const productCard = [
     {
         id:1,
