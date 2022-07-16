@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ededed;
+    font-family: 'Poppins', sans-serif;
+}
+
+.users-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.item{
+    margin: 20px;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    -webkit-box-shadow: 4px 14px 10px -4px rgba(74, 94, 110, 0.6);
+    -moz-box-shadow: 4px 14px 10px -4px rgba(74, 94, 110, 0.6);
+    box-shadow: 4px 14px 10px -4px rgba(74, 94, 110, 0.6);
+    border-radius: 40px;
+}
+
+.user{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 17px;
+    left: 135px;
+    text-align: center;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.username{
+    text-align: center;
+    margin-top: -24px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+hr {
+    margin-top: -5px;
+    width: 208px;
+
+}
+
+.mail-img {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    left: 10px;
+    top: 7px;
+}
+
+.mail{
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.home-img{
+    position: relative;
+    top: 48px;
+    left: -165px;
+    width: 23px;
+    height: 23px;
+}
+
+.home{
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 37px;
+    margin-top: 5px;
+}
+
+.call-img{
+    position: relative;
+    top: 48px;
+    left: -223px;
+    width: 23px;
+    height: 23px;
+}
+.call {
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 37px;
+    margin-top: 5px;
+}
+
+.company-img{
+    position: relative;
+    top: 48px;
+    left: -198px;
+    width: 23px;
+    height: 23px;
+}
+.company{
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 37px;
+    margin-top: 5px;
+}
