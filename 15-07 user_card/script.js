@@ -1,4 +1,4 @@
-const users_cards = [
+const users = [
     {
         id: 1,
         name: "Leanne Graham",
@@ -191,4 +191,4 @@ const showUsersCards = (users) => {
         container.append(div);
     })
 }
-showUsersCards(users_cards);
+showUsersCards(users);
